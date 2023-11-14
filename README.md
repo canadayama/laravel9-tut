@@ -4,26 +4,25 @@
 
 ### Startup
 
-``$ docker compose up -d [--build]``
+`$ docker compose up -d [--build]`
 
 ### Shutdown
 
-``$ docker compose down``
+`$ docker compose down`
 
 ### Enter Container
 
-``$ docker exec -it container-name sh``
+`$ docker exec -it container-name sh`
 
 ## Php Artisan
 
-
 ## Install Debug bar
 
-``$ composer require barryvdh/laravel-debugbar --dev``
+`$ composer require barryvdh/laravel-debugbar --dev`
 
 ## Generate APP_KEY
 
-``$ php artisan key:generate``
+`$ php artisan key:generate`
 
 ## Code With Dary
 
@@ -35,5 +34,15 @@
 6. Config & Env Variables in Laravel
 7. Controllers for Beginners
 8. Single Action Controller in Laravel
-9. Routes with Parameters in Laravel 9
-10.
+9. Basic Routing in Laravel 9
+10. Routes with Parameters in Laravel 9
+11. Routes with Expressions in Laravel 9
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.

@@ -18,7 +18,19 @@ use Barryvdh\Debugbar\Facades\Debugbar;
 
 // GET
 Route::get('/blog', [PostsController::class, 'index']);
-Route::get('/blog/{id}', [PostsController::class, 'show']);
+Route::get('/blog/{id}', [PostsController::class, 'show'])->where('id', '[0-9]+');
+//Route::get('/blog/{id}', [PostsController::class, 'show'])->whereNumber('id');
+//Route::get('/blog/{name}', [PostsController::class, 'show'])->where('name', '[a-zA-Z]+');
+//Route::get('/blog/{name}', [PostsController::class, 'show'])->whereAlpha('name');
+// Route::get('/blog/{id}/{name}', [PostsController::class, 'show'])
+//     ->where([
+//         'id'=>'[0-9]+',
+//         'name', '[a-zA-Z]+'
+//     ]);
+// Route::get('/blog/{id}/{name}', [PostsController::class, 'show'])
+//     ->whereNumber('id')
+//     ->whereAlpha('name');
+
 // POST
 Route::get('/blog/create', [PostsController::class, 'create']);
 Route::post('/blog', [PostsController::class, 'store']);
