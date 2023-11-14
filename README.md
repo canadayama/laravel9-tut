@@ -31,9 +31,9 @@
 2. How to Install Laravel Valet on Mac
 3. How to Setup VS Code For Laravel in 2022
 4. How to Use Laravel Debugbar
-5. Config & Env Variables in Laravel
-6. Controllers for Beginners
-7.
-8.
+5. Laravel 9 Project Directory Explained
+6. Config & Env Variables in Laravel
+7. Controllers for Beginners
+8. Single Action Controller in Laravel
 9.
 10.

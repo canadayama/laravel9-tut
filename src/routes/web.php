@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostsController;
 use Illuminate\Support\Facades\Route;
 use Barryvdh\Debugbar\Facades\Debugbar;
@@ -16,3 +17,5 @@ use Barryvdh\Debugbar\Facades\Debugbar;
 */
 
 Route::resource('/blog', PostsController::class);
+
+Route::get('/', HomeController::class);
