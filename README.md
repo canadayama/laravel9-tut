@@ -37,7 +37,7 @@
 9. Basic Routing in Laravel 9
 10. Routes with Parameters in Laravel 9
 11. Routes with Expressions in Laravel 9
-12.
+12. Named Routes in Laravel 9
 13.
 14.
 15.
@@ -46,3 +46,11 @@
 18.
 19.
 20.
+
+
+30.
+31.
+32.
+33.
+34.
+35.

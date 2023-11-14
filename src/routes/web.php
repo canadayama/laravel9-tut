@@ -14,31 +14,20 @@ use Barryvdh\Debugbar\Facades\Debugbar;
     OPTIONS
 */
 
-//Route::resource('/blog', PostsController::class);
+Route::resource('/blog', PostsController::class);
 
-// GET
-Route::get('/blog', [PostsController::class, 'index']);
-Route::get('/blog/{id}', [PostsController::class, 'show'])->where('id', '[0-9]+');
-//Route::get('/blog/{id}', [PostsController::class, 'show'])->whereNumber('id');
-//Route::get('/blog/{name}', [PostsController::class, 'show'])->where('name', '[a-zA-Z]+');
-//Route::get('/blog/{name}', [PostsController::class, 'show'])->whereAlpha('name');
-// Route::get('/blog/{id}/{name}', [PostsController::class, 'show'])
-//     ->where([
-//         'id'=>'[0-9]+',
-//         'name', '[a-zA-Z]+'
-//     ]);
-// Route::get('/blog/{id}/{name}', [PostsController::class, 'show'])
-//     ->whereNumber('id')
-//     ->whereAlpha('name');
+// // GET
+// Route::get('/blog', [PostsController::class, 'index'])->name('blog.index');
+// Route::get('/blog/{id}', [PostsController::class, 'show'])->where('id', '[0-9]+')->name('blog.show');
 
-// POST
-Route::get('/blog/create', [PostsController::class, 'create']);
-Route::post('/blog', [PostsController::class, 'store']);
-// PUT or PATCH
-Route::get('/blog/edit/{id}', [PostsController::class, 'edit']);
-Route::patch('/blog/{id}', [PostsController::class, 'update']);
-// DELETE
-Route::delete('/blog/{id}', [PostsController::class, 'destroy']);
+// // POST
+// Route::get('/blog/create', [PostsController::class, 'create'])->name('blog.create');
+// Route::post('/blog', [PostsController::class, 'store'])->name('blog.store');
+// // PUT or PATCH
+// Route::get('/blog/edit/{id}', [PostsController::class, 'edit'])->name('blog.edit');
+// Route::patch('/blog/{id}', [PostsController::class, 'update'])->name('blog.update');
+// // DELETE
+// Route::delete('/blog/{id}', [PostsController::class, 'destroy'])->name('blog.destroy');
 
 Route::get('/', HomeController::class);
 
