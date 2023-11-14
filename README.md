@@ -32,7 +32,7 @@
 3. How to Setup VS Code For Laravel in 2022
 4. How to Use Laravel Debugbar
 5. Config & Env Variables in Laravel
-6.
+6. Controllers for Beginners
 7.
 8.
 9.
