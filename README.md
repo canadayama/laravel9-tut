@@ -35,5 +35,5 @@
 6. Config & Env Variables in Laravel
 7. Controllers for Beginners
 8. Single Action Controller in Laravel
-9.
+9. Routes with Parameters in Laravel 9
 10.
