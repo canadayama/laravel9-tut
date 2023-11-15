@@ -59,7 +59,7 @@
 15. Setup & Connect to Your Laravel Database
 16. Migrations in Laravel 9
 17. Seeders in Laravel 9
-18.
+18. Model Factories in Laravel 9
 19.
 20.
 21.
