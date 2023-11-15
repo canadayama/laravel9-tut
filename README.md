@@ -27,13 +27,17 @@
 
 ## Migrations
 
-`$ php artisan migration`
+`$ php artisan migrate [--seed]`
 
-`$ php artisan migration:status`
+`$ php artisan migrate:status`
 
-`$ php artisan migration:reset`
+`$ php artisan migrate:reset`
 
-`$ php artisan migration:refresh`
+`$ php artisan migrate:refresh`
+
+## Seeding DB
+
+`$ php artisan db:seed`
 
 
 ## Code With Dary
@@ -54,12 +58,19 @@
 14. How to Use Fallback Routes
 15. Setup & Connect to Your Laravel Database
 16. Migrations in Laravel 9
-17.
+17. Seeders in Laravel 9
 18.
 19.
 20.
-
-
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
 30.
 31.
 32.
