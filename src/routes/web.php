@@ -14,20 +14,22 @@ use Barryvdh\Debugbar\Facades\Debugbar;
     OPTIONS
 */
 
-Route::resource('/blog', PostsController::class);
+//Route::resource('/blog', PostsController::class);
 
-// // GET
-// Route::get('/blog', [PostsController::class, 'index'])->name('blog.index');
-// Route::get('/blog/{id}', [PostsController::class, 'show'])->where('id', '[0-9]+')->name('blog.show');
+Route::prefix('/blog')->group(function() {
+    // GET
+    Route::get('/', [PostsController::class, 'index'])->name('blog.index');
+    Route::get('/{id}', [PostsController::class, 'show'])->where('id', '[0-9]+')->name('blog.show');
 
-// // POST
-// Route::get('/blog/create', [PostsController::class, 'create'])->name('blog.create');
-// Route::post('/blog', [PostsController::class, 'store'])->name('blog.store');
-// // PUT or PATCH
-// Route::get('/blog/edit/{id}', [PostsController::class, 'edit'])->name('blog.edit');
-// Route::patch('/blog/{id}', [PostsController::class, 'update'])->name('blog.update');
-// // DELETE
-// Route::delete('/blog/{id}', [PostsController::class, 'destroy'])->name('blog.destroy');
+    // POST
+    Route::get('/create', [PostsController::class, 'create'])->name('blog.create');
+    Route::post('/', [PostsController::class, 'store'])->name('blog.store');
+    // PUT or PATCH
+    Route::get('/edit/{id}', [PostsController::class, 'edit'])->name('blog.edit');
+    Route::patch('/{id}', [PostsController::class, 'update'])->name('blog.update');
+    // DELETE
+    Route::delete('/{id}', [PostsController::class, 'destroy'])->name('blog.destroy');
+});
 
 Route::get('/', HomeController::class);
 

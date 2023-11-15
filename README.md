@@ -38,7 +38,7 @@
 10. Routes with Parameters in Laravel 9
 11. Routes with Expressions in Laravel 9
 12. Named Routes in Laravel 9
-13.
+13. How to Use Route Prefixes in Laravel
 14.
 15.
 16.
