@@ -72,7 +72,7 @@
 24. How to Output Variables in Blade
 25. How to Insert Data using Eloquent
 26. Simple Image Upload in Laravel
-27.
+27. Form Validation & Displaying Error Messages
 28.
 29.
 30.
