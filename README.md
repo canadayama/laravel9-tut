@@ -69,7 +69,7 @@
 21. Blade Variables & Control Structures
 22. Eloquent Model Conventions
 23. How to Retrieve Data Using Eloquent
-24.
+24. How to Output Variables in Blade
 25.
 26.
 27.
