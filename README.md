@@ -71,7 +71,7 @@
 23. How to Retrieve Data Using Eloquent
 24. How to Output Variables in Blade
 25. How to Insert Data using Eloquent
-26.
+26. Simple Image Upload in Laravel
 27.
 28.
 29.
