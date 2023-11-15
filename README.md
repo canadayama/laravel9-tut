@@ -66,7 +66,7 @@
 18. Model Factories in Laravel 9
 19. Introduction to the Query Builder
 20. How to Setup TailwindCSS 3.0 in a Laravel 9 Project
-21.
+21. Blade Variables & Control Structures
 22.
 23.
 24.

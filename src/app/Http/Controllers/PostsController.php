@@ -14,13 +14,10 @@ class PostsController extends Controller
      */
     public function index()
     {
-        $posts = DB::table('posts')
-            ->select('min_to_read')
-            ->distinct()
-            ->orderBy('min_to_read')
-            ->get();
-        dd($posts);
-        return view('blog.index');
+        //return view('blog.index')->with('posts', $posts);
+        return view('blog.index', [
+            'posts' => DB::table('posts')->get()
+        ]);
     }
 
     /**
