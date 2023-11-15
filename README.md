@@ -24,6 +24,18 @@
 
 `$ php artisan key:generate`
 
+
+## Migrations
+
+`$ php artisan migration`
+
+`$ php artisan migration:status`
+
+`$ php artisan migration:reset`
+
+`$ php artisan migration:refresh`
+
+
 ## Code With Dary
 
 1. Introduction to Laravel 9
@@ -40,8 +52,8 @@
 12. Named Routes in Laravel 9
 13. How to Use Route Prefixes in Laravel
 14. How to Use Fallback Routes
-15.
-16.
+15. Setup & Connect to Your Laravel Database
+16. Migrations in Laravel 9
 17.
 18.
 19.
