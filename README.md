@@ -39,6 +39,10 @@
 
 `$ php artisan db:seed`
 
+## TailwindCSS
+
+`$ npm run dev`
+
 
 ## Code With Dary
 
@@ -60,8 +64,8 @@
 16. Migrations in Laravel 9
 17. Seeders in Laravel 9
 18. Model Factories in Laravel 9
-19.
-20.
+19. Introduction to the Query Builder
+20. How to Setup TailwindCSS 3.0 in a Laravel 9 Project
 21.
 22.
 23.
