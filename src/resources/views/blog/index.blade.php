@@ -9,7 +9,7 @@
 </head>
 <body>
     @forelse ($posts as $post)
-        {{ $loop->parent }}
+        {{ $post->title }}
     @empty
         <p>No posts have been set</p>
     @endforelse

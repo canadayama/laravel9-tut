@@ -68,7 +68,7 @@
 20. How to Setup TailwindCSS 3.0 in a Laravel 9 Project
 21. Blade Variables & Control Structures
 22. Eloquent Model Conventions
-23.
+23. How to Retrieve Data Using Eloquent
 24.
 25.
 26.
