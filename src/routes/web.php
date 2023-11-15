@@ -1,9 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostsController;
-use Illuminate\Support\Facades\Route;
-use Barryvdh\Debugbar\Facades\Debugbar;
+use App\Http\Controllers\FallbackController;
 
 /*
     GET
@@ -38,3 +38,5 @@ Route::get('/', HomeController::class);
 //Route::any('/blog', [PostsController::class, 'index']);
 
 //Route::view('/blog', 'blog.index', ['name' => 'Code with Dary']);
+
+Route::fallback(FallbackController::class);
