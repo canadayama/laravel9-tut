@@ -73,7 +73,7 @@
 25. How to Insert Data using Eloquent
 26. Simple Image Upload in Laravel
 27. Form Validation & Displaying Error Messages
-28.
+28. Updating Data Using Eloquent
 29.
 30.
 31.
