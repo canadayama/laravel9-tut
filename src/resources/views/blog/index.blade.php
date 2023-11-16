@@ -53,7 +53,7 @@
                 </h2>
 
                 <p class="text-gray-900 text-lg py-8 w-full break-words">
-                    {{ $post->body }}
+                    {{ $post->excerpt }}
                 </p>
 
                 <span class="text-gray-500 text-sm sm:text-base">

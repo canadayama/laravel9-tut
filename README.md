@@ -75,7 +75,7 @@
 27. Form Validation & Displaying Error Messages
 28. Updating Data Using Eloquent
 29. How to Delete Data Using Eloquent
-30.
+30. How to Use Form Requests in Laravel
 31.
 32.
 33.
