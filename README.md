@@ -74,7 +74,7 @@
 26. Simple Image Upload in Laravel
 27. Form Validation & Displaying Error Messages
 28. Updating Data Using Eloquent
-29.
+29. How to Delete Data Using Eloquent
 30.
 31.
 32.
