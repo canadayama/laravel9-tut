@@ -83,5 +83,5 @@
 31. How to Add Pagination in Laravel
 32. One to Many Relationship in Laravel
 33. Laravel One to One Relationship
-34.
+34. Laravel Many to Many Relationship
 35.
