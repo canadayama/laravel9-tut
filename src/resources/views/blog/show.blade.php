@@ -6,6 +6,18 @@
         content="width=device-width, initial-scale=1.0"
     />
     <meta
+        name="description"
+        content="{{ $post->meta->meta_description ?? '' }}"
+    />
+    <meta
+        name="keywords"
+        content="{{ $post->meta->meta_keywords ?? '' }}"
+    />
+    <meta
+        name="robots"
+        content="{{ $post->meta->meta_robots ?? '' }}"
+    />
+    <meta
         http-equiv="X-UA-Compatible"
         content="ie=edge"
     />
@@ -36,7 +48,7 @@
                         class="font-bold text-green-500 italic hover:text-green-400 hover:border-b-2 border-green-400 pb-3 transition-all py-20">
                         {{ $post->user->name  }}
                     </a>
-                    On {{ $post->created_at }}
+                    On {{ $post->updated_at->format('d-m-Y') }}
                 </span>
             </div>
         </div>

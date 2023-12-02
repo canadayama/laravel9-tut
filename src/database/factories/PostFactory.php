@@ -26,4 +26,12 @@ class PostFactory extends Factory
             'user_id' => 1
         ];
     }
+
+    /**
+     *
+     */
+    public function meta()
+    {
+        return $this->hasOne(PostMeta::class);
+    }
 }
