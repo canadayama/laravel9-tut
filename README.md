@@ -1,5 +1,9 @@
 # Laravel 9 Tutorial
 
+## Get Laravel version
+
+`$ php artisan --version`
+
 ## Docker
 
 ### Startup
@@ -76,8 +80,8 @@
 28. Updating Data Using Eloquent
 29. How to Delete Data Using Eloquent
 30. How to Use Form Requests in Laravel
-31.
-32.
+31. How to Add Pagination in Laravel
+32. One to Many Relationship in Laravel
 33.
 34.
 35.

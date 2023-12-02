@@ -17,18 +17,12 @@ class Post extends Model
         'is_published',
         'min_to_read'
     ];
-    
-    //protected $table = 'posts';
 
-    //protected $primary ='id';
-
-    // protected $timestamps = false;
-
-    // protected $dateTime = 'u';
-
-    // protected $connection = 'sqllite';
-
-    // protected $attributes = [
-    //     'is_published' => true
-    // ];
+    /**
+     * 
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
